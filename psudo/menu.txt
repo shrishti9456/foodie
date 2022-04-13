@@ -1,0 +1,175 @@
+<html>
+<head>
+<tittle>menu</tittle>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!--Get your own code at fontawesome.com-->
+<style>
+a:link, a:visited {
+  background-color:orange;
+  color:black;
+  padding: 15px 25px;
+  border-radius:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.zoom
+{
+transition:transform 0.5s;
+}
+.zoom:hover
+{
+traform :scale(1.05);
+}
+.container{
+position: relative;
+width: 50%;
+}
+.image{
+display:block;
+width :100%;
+height :auto;
+}
+</style>
+</head>
+<body>
+<table border ="0" width="100%"height="85%" >
+<tr>
+<td width="25%" aling="center" class="zoom"><img src="momos.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="manchurian.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="noodles.jpg" width="85%"></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">MOMOS</font></b></td>
+<td aling="center"><b><font size="4">MANCHURIAN</font></b></td>
+<td aling="center"><b><font size="4">NOODLES</font></b></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">Price: INR 60</font></b></td>
+<td aling="center"><b><font size="4">Price: INR 100</font></b></td>
+<td aling="center"><b><font size="4">Price: INR 80</font></b></td>
+</tr>
+<tr>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+</tr>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<tr>
+<td width="25%" aling="center" class="zoom"><img src="pizza.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="pasta.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="burger.jpg" width="85%"></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">PIZZA</font></b></td>
+<td aling="center"><b><font size="4">PASATA</font></b></td>
+<td aling="center"><b><font size="4">BURGER</font></b></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">Price: INR 100</font></b></td>
+<td aling="center"><b><font size="4">Price:INR 75</font></b></td>
+<td aling="center"><b><font size="4">Price: INR 60</font></b></td>
+</tr>
+<tr>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+</tr>
+</tr>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<tr>
+<tr>
+<td width="25%" aling="center" class="zoom"><img src="french fries.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="hot dog.jpg" width="85%"></td>
+<td width="25%" aling="center" class="zoom"><img src="spring roll.jpg" width="85%"></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">FRENCH FRIES</font></b></td>
+<td aling="center"><b><font size="4">HOT DOG</font></b></td>
+<td aling="center"><b><font size="4">SPRING ROLL</font></b></td>
+</tr>
+<tr>
+<td aling="center"><b><font size="4">Price: INR 70</font></b></td>
+<td aling="center"><b><font size="4">Price: INR 80</font></b></td>
+<td aling="center"><b><font size="4">Price: INR 100</font></b></td>
+</tr>
+<tr>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+<td>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:orange;"></i>
+<i class="fas fa-star" style="color:black;"></i>
+</td>
+</tr>
+</tr>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<td><a href="#" target="_blank">order now</a></td>
+<tr>
+</table>
+<center>
+<a href="next page.html" target="_blank">Next page</a>
+</center>
+</body>
+</html>
+
